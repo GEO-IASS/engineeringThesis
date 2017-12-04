@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  3 DEC 2017 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  4 DEC 2017 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1019,7 +1019,7 @@ Package epstopdf Info: Source file: <Figures/Logo.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Logo-eps-converted-to.pdf, id=188, 393.47pt x 474.77374pt>
+<Figures/Logo-eps-converted-to.pdf, id=192, 393.47pt x 474.77374pt>
 File: Figures/Logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/Logo-eps-converted-to.pdf>
@@ -1088,13 +1088,20 @@ ed-to.pdf>]
  [8
 
 
+] (./Appendices/AppendixA.tex
+------------------------------------------------------------------------------
+ 0 Glosario
+------------------------------------------------------------------------------
+) [9
+
+
+
 ] (./Chapters/Chapter1.tex
 Cap\IeC {\'\i }tulo 1.
 ------------------------------------------------------------------------------
  1 Introducci\IeC {\'o}n
 ------------------------------------------------------------------------------
 [1
-
 
 
 ] [2] [3]
@@ -1110,7 +1117,7 @@ Cap\IeC {\'\i }tulo 2.
 ------------------------------------------------------------------------------
  2 Marco te\IeC {\'o}rico
 ------------------------------------------------------------------------------
-<./images/propagacion.png, id=431, 1003.75pt x 431.6125pt>
+<./images/propagacion.png, id=440, 1003.75pt x 431.6125pt>
 File: ./images/propagacion.png Graphic file (type png)
 
 <use ./images/propagacion.png>
@@ -1148,7 +1155,7 @@ Overfull \hbox (9.03076pt too wide) in paragraph at lines 44--56
  [][] 
  []
 
-<./images/nasa.jpg, id=446, 724.20563pt x 517.935pt>
+<./images/nasa.jpg, id=455, 724.20563pt x 517.935pt>
 File: ./images/nasa.jpg Graphic file (type jpg)
  <use ./images/nasa.jpg>
 Package pdftex.def Info: ./images/nasa.jpg used on input line 65.
@@ -1158,7 +1165,7 @@ Package pdftex.def Info: ./images/nasa.jpg used on input line 65.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./images/propagacion.png>]
-<./images/firma.png, id=455, 490.83376pt x 280.04625pt>
+<./images/firma.png, id=465, 490.83376pt x 280.04625pt>
 File: ./images/firma.png Graphic file (type png)
 
 <use ./images/firma.png>
@@ -1168,7 +1175,7 @@ Package pdftex.def Info: ./images/firma.png used on input line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/sanidad.png, id=462, 1184.425pt x 581.17125pt>
+<./images/sanidad.png, id=472, 1184.425pt x 581.17125pt>
 File: ./images/sanidad.png Graphic file (type png)
 
 <use ./images/sanidad.png>
@@ -1178,7 +1185,7 @@ Package pdftex.def Info: ./images/sanidad.png used on input line 86.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/animal.png, id=465, 117.43875pt x 260.975pt>
+<./images/animal.png, id=475, 117.43875pt x 260.975pt>
 File: ./images/animal.png Graphic file (type png)
 
 <use ./images/animal.png>
@@ -1188,7 +1195,7 @@ Package pdftex.def Info: ./images/animal.png used on input line 94.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/wiki.png, id=469, 560.0925pt x 545.03625pt>
+<./images/wiki.png, id=479, 560.0925pt x 545.03625pt>
 File: ./images/wiki.png Graphic file (type png)
  <use ./images/wiki.png>
 Package pdftex.def Info: ./images/wiki.png used on input line 105.
@@ -1197,7 +1204,7 @@ Package pdftex.def Info: ./images/wiki.png used on input line 105.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] <./images/jairo.png, id=482, 1359.0775pt x 419.5675pt>
+[7] <./images/jairo.png, id=491, 1359.0775pt x 419.5675pt>
 File: ./images/jairo.png Graphic file (type png)
 
 <use ./images/jairo.png>
@@ -1212,7 +1219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-<./images/paper1.png, id=491, 407.5225pt x 343.2825pt>
+<./images/paper1.png, id=500, 407.5225pt x 343.2825pt>
 File: ./images/paper1.png Graphic file (type png)
 
 <use ./images/paper1.png>
@@ -1223,7 +1230,7 @@ Package pdftex.def Info: ./images/paper1.png used on input line 129.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./images/sanidad.png> <./images/animal.png>] [10 <./images/wiki.png> <./ima
-ges/jairo.png>] <./images/CTIS.png, id=507, 836.12375pt x 393.47pt>
+ges/jairo.png>] <./images/CTIS.png, id=516, 836.12375pt x 393.47pt>
 File: ./images/CTIS.png Graphic file (type png)
 
 <use ./images/CTIS.png>
@@ -1262,7 +1269,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 239.
 
-[14] <./images/Bayer.png, id=551, 503.8825pt x 234.8775pt>
+[14] <./images/Bayer.png, id=560, 503.8825pt x 234.8775pt>
 File: ./images/Bayer.png Graphic file (type png)
 
 <use ./images/Bayer.png>
@@ -1360,14 +1367,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 320.
 
-[17] <./images/fourier.png, id=585, 527.9725pt x 482.80376pt>
+[17] <./images/fourier.png, id=594, 527.9725pt x 482.80376pt>
 File: ./images/fourier.png Graphic file (type png)
 
 <use ./images/fourier.png>
 Package pdftex.def Info: ./images/fourier.png used on input line 369.
 (pdftex.def)             Requested size: 250.48637pt x 229.05421pt.
 
-<./images/waveletvsfft.png, id=593, 703.62875pt x 523.9575pt>
+<./images/waveletvsfft.png, id=602, 703.62875pt x 523.9575pt>
 File: ./images/waveletvsfft.png Graphic file (type png)
 
 <use ./images/waveletvsfft.png>
@@ -1378,7 +1385,7 @@ Package pdftex.def Info: ./images/waveletvsfft.png used on input line 382.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./images/fourier.png>] [19 <./images/waveletvsfft.png (PNG copy)>]
-<./images/dau.png, id=613, 665.48625pt x 379.4175pt>
+<./images/dau.png, id=622, 665.48625pt x 379.4175pt>
 File: ./images/dau.png Graphic file (type png)
  <use ./images/dau.png>
 Package pdftex.def Info: ./images/dau.png used on input line 434.
@@ -1391,7 +1398,7 @@ Cap\IeC {\'\i }tulo 3.
 ------------------------------------------------------------------------------
 [21
 
-] <./images/RESULTS/squeme.jpg, id=627, 963.6pt x 722.7pt>
+] <./images/RESULTS/squeme.jpg, id=637, 963.6pt x 722.7pt>
 File: ./images/RESULTS/squeme.jpg Graphic file (type jpg)
 
 <use ./images/RESULTS/squeme.jpg>
@@ -1404,7 +1411,7 @@ Cap\IeC {\'\i }tulo 4.
 ------------------------------------------------------------------------------
  4 Resultados
 ------------------------------------------------------------------------------
-<./images/RESULTS/original.png, id=635, 1259.4553pt x 944.7797pt>
+<./images/RESULTS/original.png, id=644, 1259.4553pt x 944.7797pt>
 File: ./images/RESULTS/original.png Graphic file (type png)
 
 <use ./images/RESULTS/original.png>
@@ -1414,7 +1421,7 @@ Package pdftex.def Info: ./images/RESULTS/original.png used on input line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/RESULTS/slices/466.png, id=636, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/466.png, id=645, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/466.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/466.png>
@@ -1422,7 +1429,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/466.png used on input line 19.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/508.png, id=637, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/508.png, id=646, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/508.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/508.png>
@@ -1430,7 +1437,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/508.png used on input line 20.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/549.png, id=638, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/549.png, id=647, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/549.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/549.png>
@@ -1442,7 +1449,7 @@ Overfull \hbox (1.56654pt too wide) in paragraph at lines 17--23
  []$ 
  []
 
-<./images/RESULTS/slices/589.png, id=639, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/589.png, id=648, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/589.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/589.png>
@@ -1450,7 +1457,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/589.png used on input line 27.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/627.png, id=640, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/627.png, id=649, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/627.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/627.png>
@@ -1458,7 +1465,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/627.png used on input line 28.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/669.png, id=641, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/669.png, id=650, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/669.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/669.png>
@@ -1470,7 +1477,7 @@ Overfull \hbox (1.56654pt too wide) in paragraph at lines 25--31
  []$ 
  []
 
-<./images/RESULTS/slices/709.png, id=642, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/709.png, id=651, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/709.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/709.png>
@@ -1478,7 +1485,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/709.png used on input line 35.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/750.png, id=643, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/750.png, id=652, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/750.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/750.png>
@@ -1486,7 +1493,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/750.png used on input line 36.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/790.png, id=644, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/790.png, id=653, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/790.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/790.png>
@@ -1498,7 +1505,7 @@ Overfull \hbox (1.56654pt too wide) in paragraph at lines 33--39
  []$ 
  []
 
-<./images/RESULTS/slices/830.png, id=645, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/830.png, id=654, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/830.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/830.png>
@@ -1506,7 +1513,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/830.png used on input line 43.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/870.png, id=646, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/870.png, id=655, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/870.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/870.png>
@@ -1514,7 +1521,7 @@ Package pdftex.def Info: ./images/RESULTS/slices/870.png used on input line 44.
 
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/slices/911.png, id=647, 130.98938pt x 129.48375pt>
+<./images/RESULTS/slices/911.png, id=656, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/slices/911.png Graphic file (type png)
 
 <use ./images/RESULTS/slices/911.png>
@@ -1542,7 +1549,7 @@ images/RESULTS/slices/627.png (PNG copy)> <./images/RESULTS/slices/669.png (PNG
 50.png (PNG copy)> <./images/RESULTS/slices/790.png (PNG copy)> <./images/RESUL
 TS/slices/830.png (PNG copy)> <./images/RESULTS/slices/870.png (PNG copy)> <./i
 mages/RESULTS/slices/911.png (PNG copy)>]
-<./images/RESULTS/compare870/original.png, id=676, 130.98938pt x 129.48375pt>
+<./images/RESULTS/compare870/original.png, id=685, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/compare870/original.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/original.png>
@@ -1550,7 +1557,7 @@ Package pdftex.def Info: ./images/RESULTS/compare870/original.png used on input
  line 60.
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/compare870/Dau.png, id=677, 174.6525pt x 172.645pt>
+<./images/RESULTS/compare870/Dau.png, id=686, 174.6525pt x 172.645pt>
 File: ./images/RESULTS/compare870/Dau.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/Dau.png>
@@ -1558,7 +1565,7 @@ Package pdftex.def Info: ./images/RESULTS/compare870/Dau.png used on input line
  61.
 (pdftex.def)             Requested size: 129.57394pt x 128.08458pt.
 
-<./images/RESULTS/compare870/MSB.png, id=678, 174.6525pt x 172.645pt>
+<./images/RESULTS/compare870/MSB.png, id=687, 174.6525pt x 172.645pt>
 File: ./images/RESULTS/compare870/MSB.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/MSB.png>
@@ -1570,7 +1577,7 @@ Overfull \hbox (1.35469pt too wide) in paragraph at lines 58--64
  []$ 
  []
 
-<./images/RESULTS/compare870/MBS.png, id=679, 130.98938pt x 129.48375pt>
+<./images/RESULTS/compare870/MBS.png, id=688, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/compare870/MBS.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/MBS.png>
@@ -1578,7 +1585,7 @@ Package pdftex.def Info: ./images/RESULTS/compare870/MBS.png used on input line
  68.
 (pdftex.def)             Requested size: 129.67987pt x 128.18929pt.
 
-<./images/RESULTS/compare870/BSM.png, id=680, 174.6525pt x 172.645pt>
+<./images/RESULTS/compare870/BSM.png, id=689, 174.6525pt x 172.645pt>
 File: ./images/RESULTS/compare870/BSM.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/BSM.png>
@@ -1586,7 +1593,7 @@ Package pdftex.def Info: ./images/RESULTS/compare870/BSM.png used on input line
  69.
 (pdftex.def)             Requested size: 129.57394pt x 128.08458pt.
 
-<./images/RESULTS/compare870/BMS.png, id=681, 130.98938pt x 129.48375pt>
+<./images/RESULTS/compare870/BMS.png, id=690, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/compare870/BMS.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/BMS.png>
@@ -1604,7 +1611,7 @@ Overfull \hbox (1.46062pt too wide) in paragraph at lines 66--72
 e870/Dau.png (PNG copy)> <./images/RESULTS/compare870/MSB.png (PNG copy)> <./im
 ages/RESULTS/compare870/MBS.png (PNG copy)> <./images/RESULTS/compare870/BSM.pn
 g (PNG copy)> <./images/RESULTS/compare870/BMS.png (PNG copy)>]
-<./images/RESULTS/Malvar/mosaic.png, id=693, 1679.27374pt x 1259.70625pt>
+<./images/RESULTS/Malvar/mosaic.png, id=703, 1679.27374pt x 1259.70625pt>
 File: ./images/RESULTS/Malvar/mosaic.png Graphic file (type png)
 
 <use ./images/RESULTS/Malvar/mosaic.png>
@@ -1612,7 +1619,7 @@ Package pdftex.def Info: ./images/RESULTS/Malvar/mosaic.png used on input line
 82.
 (pdftex.def)             Requested size: 378.84523pt x 284.19054pt.
  [27 <./images/RESULTS/Malvar/mosaic.png (PNG copy)>]
-<./images/RESULTS/compare870/MS.png, id=699, 130.98938pt x 129.48375pt>
+<./images/RESULTS/compare870/MS.png, id=709, 130.98938pt x 129.48375pt>
 File: ./images/RESULTS/compare870/MS.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/MS.png>
@@ -1626,7 +1633,7 @@ Package pdftex.def Info: ./images/RESULTS/compare870/MSB.png used on input line
  98.
 (pdftex.def)             Requested size: 192.11833pt x 189.91006pt.
 
-<./images/RESULTS/compare870/MSBD.png, id=700, 174.6525pt x 172.645pt>
+<./images/RESULTS/compare870/MSBD.png, id=710, 174.6525pt x 172.645pt>
 File: ./images/RESULTS/compare870/MSBD.png Graphic file (type png)
 
 <use ./images/RESULTS/compare870/MSBD.png>
@@ -1746,31 +1753,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [32])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
  [33]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FACA393D56D77DB28469701EB3188B7F;8251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 376.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5CEA415FC782CF631C2B96FD5FEFB457;8405
+(rerunfilecheck)             After:  BADDDC0ED6C2809CA84E078C309249DF;8344.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 376.
  ) 
 Here is how much of TeX's memory you used:
- 15621 strings out of 494910
- 218613 string characters out of 6179836
- 404060 words of memory out of 5000000
- 18429 multiletter control sequences out of 15000+600000
+ 15629 strings out of 494910
+ 218726 string characters out of 6179836
+ 404100 words of memory out of 5000000
+ 18431 multiletter control sequences out of 15000+600000
  16288 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,19n,51p,1074b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,19n,51p,1368b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -1790,10 +1803,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (42 pages, 6215969 bytes).
+Output written on main.pdf (43 pages, 6217492 bytes).
 PDF statistics:
- 848 PDF objects out of 1000 (max. 8388607)
- 721 compressed objects within 8 object streams
- 192 named destinations out of 1000 (max. 500000)
- 554 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 731 compressed objects within 8 object streams
+ 194 named destinations out of 1000 (max. 500000)
+ 562 words of extra memory for PDF output out of 10000 (max. 10000000)
 

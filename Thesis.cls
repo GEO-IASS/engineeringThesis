@@ -376,7 +376,7 @@
     \cleardoublepage
 }\end{spacing}
 }
-\newcommand\listsymbolname{Abreviaciones}
+\newcommand\listsymbolname{Glosario}
 \usepackage{longtable}
 \newcommand\listofsymbols[2]{
 \btypeout{\listsymbolname}

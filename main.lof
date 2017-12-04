@@ -1,23 +1,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Se muestran los vectores el\IeC {\'e}ctricos ($E$) y magn\IeC {\'e}ticos ($M$), perpendiculares entre ellos,de una onda electromagn\IeC {\'e}tica. La longitud de onda ($\lambda $) corresponde a la distancia entre dos crestas consecutivas. \cite {chile}\relax }}{6}{figure.caption.26}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama del espectro electromagn\IeC {\'e}tico \cite {nasaimage}.\relax }}{8}{figure.caption.29}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Firmas espectrales de suelo, vegetaci\IeC {\'o}n y agua. \cite {Quinones}.\relax }}{8}{figure.caption.31}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Detecci\IeC {\'o}n de sanidad en vegetales \cite {chile}.\relax }}{9}{figure.caption.32}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Detecci\IeC {\'o}n espectral de anormalidades en animales. \cite {animal}.\relax }}{9}{figure.caption.33}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Imagen hiperespectral, multiespectral y espectral.\relax }}{10}{figure.caption.35}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Longitudes de onda \cite {FuzzyVD}.\relax }}{10}{figure.caption.37}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Proyecciones paralelas de difracci\IeC {\'o}n \cite {PracCam}.\relax }}{11}{figure.caption.39}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Estructura CTIS. \cite {PracCam}\relax }}{12}{figure.caption.41}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Patr\IeC {\'o}n de Bayer.\relax }}{15}{figure.caption.56}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Onda cuadrada representaci\IeC {\'o}n de serie de Fourier con 11 y 101 terminos como en la ecuaci\IeC {\'o}n \ref {Fourier6} \cite {FourierBook}.\relax }}{18}{figure.caption.76}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Comparaci\IeC {\'o}n entre transformada de Fourier y Wavelet \cite {WaveVsFourier}.\relax }}{19}{figure.caption.78}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Daubachies y funci\IeC {\'o}n wavelet \cite {Yakovlev}.\relax }}{20}{figure.caption.85}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema de resultados.\relax }}{22}{figure.caption.88}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Se muestran los vectores el\IeC {\'e}ctricos ($E$) y magn\IeC {\'e}ticos ($M$), perpendiculares entre ellos,de una onda electromagn\IeC {\'e}tica. La longitud de onda ($\lambda $) corresponde a la distancia entre dos crestas consecutivas. \cite {chile}\relax }}{6}{figure.caption.27}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama del espectro electromagn\IeC {\'e}tico \cite {nasaimage}.\relax }}{8}{figure.caption.30}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Firmas espectrales de suelo, vegetaci\IeC {\'o}n y agua. \cite {Quinones}.\relax }}{8}{figure.caption.32}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Detecci\IeC {\'o}n de sanidad en vegetales \cite {chile}.\relax }}{9}{figure.caption.33}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Detecci\IeC {\'o}n espectral de anormalidades en animales. \cite {animal}.\relax }}{9}{figure.caption.34}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Imagen hiperespectral, multiespectral y espectral.\relax }}{10}{figure.caption.36}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Longitudes de onda \cite {FuzzyVD}.\relax }}{10}{figure.caption.38}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Proyecciones paralelas de difracci\IeC {\'o}n \cite {PracCam}.\relax }}{11}{figure.caption.40}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Estructura CTIS. \cite {PracCam}\relax }}{12}{figure.caption.42}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Patr\IeC {\'o}n de Bayer.\relax }}{15}{figure.caption.57}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Onda cuadrada representaci\IeC {\'o}n de serie de Fourier con 11 y 101 terminos como en la ecuaci\IeC {\'o}n \ref {Fourier6} \cite {FourierBook}.\relax }}{18}{figure.caption.77}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Comparaci\IeC {\'o}n entre transformada de Fourier y Wavelet \cite {WaveVsFourier}.\relax }}{19}{figure.caption.79}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Daubachies y funci\IeC {\'o}n wavelet \cite {Yakovlev}.\relax }}{20}{figure.caption.86}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Imagen obtenida con camara hiperespectral.\relax }}{24}{figure.caption.91}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Slices originales.\relax }}{25}{figure.caption.92}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema de resultados.\relax }}{22}{figure.caption.89}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Imagen obtenida con camara hiperespectral.\relax }}{24}{figure.caption.92}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Slices originales.\relax }}{25}{figure.caption.93}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Imagen 466-637}}}{25}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Imagen 508-867}}}{25}{subfigure.2.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Imagen 549-087}}}{25}{subfigure.2.3}
@@ -30,19 +31,19 @@
 \contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Imagen 830-625}}}{25}{subfigure.2.10}
 \contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Imagen 870-845}}}{25}{subfigure.2.11}
 \contentsline {subfigure}{\numberline {(l)}{\ignorespaces {Imagen 911-065}}}{25}{subfigure.2.12}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparaci\IeC {\'o}n de resultados en imagen 870-845.\relax }}{26}{figure.caption.105}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparaci\IeC {\'o}n de resultados en imagen 870-845.\relax }}{26}{figure.caption.106}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original}}}{26}{subfigure.3.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dau}}}{26}{subfigure.3.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {MSB}}}{26}{subfigure.3.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {MBS}}}{26}{subfigure.3.4}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {BSM}}}{26}{subfigure.3.5}
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {BMS}}}{26}{subfigure.3.6}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Imagen obtenida con camara hiperespectral.\relax }}{27}{figure.caption.112}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Proceso para MSBD en extracci\IeC {\'o}n 870-845.\relax }}{28}{figure.caption.113}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Imagen obtenida con camara hiperespectral.\relax }}{27}{figure.caption.113}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Proceso para MSBD en extracci\IeC {\'o}n 870-845.\relax }}{28}{figure.caption.114}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MS}}}{28}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MSB }}}{28}{subfigure.5.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {MSBD}}}{28}{subfigure.5.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Proceso para MSBD en extracci\IeC {\'o}n 870-845.\relax }}{30}{figure.caption.118}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Proceso para MSBD en extracci\IeC {\'o}n 870-845.\relax }}{30}{figure.caption.119}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original}}}{30}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MSB}}}{30}{subfigure.1.2}
