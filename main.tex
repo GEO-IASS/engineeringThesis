@@ -1,0 +1,372 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{multirow}
+\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{floatrow}
+\usepackage{subfig}
+\usepackage{mwe}
+
+
+
+
+
+
+%Theorem templates
+\newtheorem{defi}{Definition}
+\newtheorem{theo}{Theorem}
+\newtheorem{coro}{Corollary}
+\newtheorem{note}{Note}
+
+
+
+\newcommand*\bombcontradicts{\includegraphics{./ParaTesisDeMaestria/bomb.png} (contradiction)}
+
+\renewcommand{\contentsname}{Índice}
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla}
+
+\renewcommand*\listtablename{Lista de Tablas}
+\renewcommand*\listfigurename{Lista de Figuras}
+\renewcommand{\bibname}{Bibliografía}
+
+
+
+
+
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+
+\includegraphics[width=0.15\textwidth]{Figures/Logo.eps}
+
+\textsc{\LARGE \univname}\\[1.5cm] % University name
+
+
+
+\textsc{\Large Tesis de Ingeniería}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+\href{mail:baciliooscar@gmail.com}{\authornames} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Asesor Externo:} \\
+\href{mail:jsalazar@gdl.cinvestav.mx}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[15mm]
+ \begin{minipage}[t]{0.6\textwidth}
+\centering
+\emph{Asesor Interno:} \\
+\href{https://google.com}{M.C. Felipe Alfonso Ordoñez García}
+\end{minipage}\\[1.7cm]
+\large \textit{Una tesis presentada en cumplimiento de los requisitos para obtener el grado de \degreename}\\[0.3cm] % University requirement text
+\textit{en la}\\[0.4cm]
+\groupname\\\deptname\\[8mm] % Research group name and department name
+Número de Control: 12290722\\[8mm]
+ 
+{\large Agosto 2017}\\ % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+\iffalse
+
+\Declaration{
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
+
+\begin{itemize} 
+\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
+\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+\end{itemize}
+ 
+Signed:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+}
+
+\clearpage % Start a new page
+\fi
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+\textit{Dedicada a todos aquellos que me motivaron a lo largo de mi vida para llegar a obtener mi título como ingeniero.}
+
+\begin{flushright}
+Oscar G. Bacilio R.
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+%----------------------------------------------------------------------------------------
+%	RESUMEN PAGE
+%----------------------------------------------------------------------------------------
+\clearpage % Start a new page
+
+\addtotoc{Resumen} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+La tesis presenta la modificación realizada sobre el procedimiento CTIS (\textit{Espectrómetro de imágenes por tomografía computarizada}) para la obtención de imágenes hiperespectrales de una cámara diseñada por el M.C. Jairo Salzar Vázquez. Se implementaron distintas soluciones y combinación de las mismas para obtener mejoras en imágenes captadas. Dentro de la teoría se explica el método principal para la captura de la imagen hiperespectral y la extracción de imágenes por rango espectral, además las series de fourier (en específico Daubechies), el método de Malvar (que dentro implementa el mosaico de Bayer) y el Blur y Sharpener de Matlab. El resultado se obtuvo aplicando varios de los mencionados métodos consiguiendo como solución una imagen por espectro con más claridad y eliminación de ruido.
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE ENGLISH
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\begin{center}
+    \setlength{\parskip}{0pt}
+    %{\normalsize \UNIVNAME \par} % University name in capitals
+    %\bigskip
+    {\huge{\textit{Abstract}} \par}
+    \bigskip
+    {\normalsize \href{http://www.itcg.edu.mx/}{City Guzman Institute of Technology} \par} % Faculty name
+    {\normalsize Computer Systems Department \par} % Department name
+    \bigskip
+    {\normalsize Engineering degree \par} % Degree name
+    \bigskip
+    {\normalsize\bf Hyperspectral imagery improvement. \par} % Thesis title
+    \medskip
+    {\normalsize by \authornames \par} % Author name
+    \bigskip
+\end{center}
+}
+The present thesis presents the modification made on the CTIS (\textit{Computed tomography imaging spectrometer}) procedure for the obtaining of hyperspectral images of a camera designed by M.C Jairo Salzar Vazquez. Different solutions and combinations of the same were implemented to obtain improvements in captured images. Within the theory, there's the explanation of the main method for the capture of the hyperspectral image and the extraction of images by spectral range, in addition to the Fourier series (in Daubechies specific), the Malvar method (within which the Bayer mosaic is implemented) and The Blur and Sharpener of Matlab. The best result was applying several of the mentioned methods obtaining a solution one image per spectrum with more clarity and elimination of noise.
+
+
+
+
+
+
+
+
+
+
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+\textbf{A Dios:}
+
+Por haber permitido que llegara a este punto y conservarme con salud y bienestar y por tener en sus planes el logro de mis objetivos académicos.
+
+\textbf{A mi Madre:}
+
+Por su apoyo incondicional y su fe en mi. Agradezco infinitamente el haberme forjado en lo que soy, en haberme cuidado y constante interés por mi bienestar mental y físico.
+
+\textbf{Al M.C Jairo Salazar Vázquez:}
+
+Por haber creído en mí, y ayudado de forma atenta con gran disponibilidad durante la realización de la presente tesis.
+
+\textbf{Al Dr. Andrés Méndez Vázquez:}
+
+Por haber accedido a que se realizará la presente tesis en colaboración del Tecnológico de Ciudad Guzmán (ITCG) y el Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional (Cinvestav) unidad Guadalajara.
+
+\textbf{Al M.C Felipe Alfonso Ordoñez García:}
+
+Por haber sido parte de los primeros pasos dados en la ciencia. Además permitirme conocer personal del Cinvestav con los que realice la presente tesis.
+
+\textbf{A la Dra. María Guadalupe Sánchez Cervantes:}
+
+Por ser quien me motivó a realizar un proyecto de investigación con el cual aumentó mi interés por el área científica.
+
+\textbf{A la alumna y gran amiga Andrea Pérez:}
+
+Por siempre estar exhortando a dar lo mejor de mi, y reflejar en sus palabras la fe que tenía en que llegaré lejos mientras de siempre lo mejor de mí mismo de forma constante.
+
+
+}
+
+
+
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+
+\lhead{\emph{Índice}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{Lista de Figuras}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{Lista de Tablas}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+%\setstretch{1.3} % Return the line spacing back to 1.3
+%\pagestyle{empty} % Page style needs to be empty for this page
+%\dedicatory{Dedicated to all people who motivated me along my life to obtain the master in science degree.} % Dedication text
+%\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER: Introduction
+%----------------------------------------------------------------------------------------
+\input{Chapters/Chapter1}%Introducción
+\input{Chapters/Chapter2}%Marco Teórico
+\input{Chapters/Chapter3}%Algoritmo generador
+\input{Chapters/Chapter4}%Algoritmos
+\input{Chapters/Chapter5}%Resultados
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+%\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\lhead{\emph{Bibliografía}} % Change the page header to say "Bibliography"
+
+\label{Bibliografia}
+
+\input{references.bib}%References
+
+\end{document}  
+

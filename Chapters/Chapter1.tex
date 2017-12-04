@@ -1,0 +1,88 @@
+% Chapter 1
+% Change the page header to say "Bibliography"
+\lhead{\emph{Introducción}}
+\chapter{Introducción} % Main chapter title
+
+\label{Capitulo1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%-----Introducción 
+%En este capítulo se explicará los conceptos introductorios para la comprensión de la problemática y el desarrollo de su solución.
+
+\section{Conceptos introductorios}
+
+Desde la antigüedad el ser humano ha intentado clasificar todo en su alrededor con la ayuda de los cinco sentidos que posee. Uno de los principales sentidos con el que una persona clasifica es la vista, tomándola como referencia de mayor confianza.
+
+Con el avance de la tecnología dentro del área científica y específicamente en el área de la visión se han realizado bastantes descubrimientos que demuestran lo limitado  que es la visión humana, y a pesar de ello el sentido de la vista sigue siendo el principal referente para la apreciación de lo que rodea al ser humano.
+Como se describe después en el Capítulo \ref{Capitulo2} la visión humana percibe en un rango visible dentro del espectro electromagnético(vea Figura \ref{fNasa}), limitando la visión humana.
+Cuando se capta mediante la vista un objeto, en sí lo que se ve es la reflectancia energética rebotada en dicho objeto con longitud de onda electromagnética dentro del espectro visible. 1
+Un claro ejemplo es cuando el sol transmite energía que llega a la superficie la cual toma 3 acciones; reflejar, absorber o transmitir(vea Capítulo \ref{FirmasEspectrales}) donde la energía que es reflejada es la que se puede identificar mediante sensores de ondas electromagnéticas (como el ojo humano que ve en el rango visible del espectro electromagnético).
+
+El presente trabajo está basado en las imágenes hiperespectrales tomadas mediante la utilización de  un Espéctrometro de Imágenes de Tomografía Computalizada(en inglés \textit{Computed Tomography Imaging Spectrometer} CTIS), aplicado a un proyecto en proceso que consiste en la creación de un dispositivo CTIS a bajo costo \cite{JairoCamera}.
+Los dispositivos CTIS dan una imagen con alto-rango-dinámico (en inglés \textit{high-dynamic-range} HDR) en 2D con referencias espectrales superposicionadas que mediante reconstrucción e interpolación cromática (Capítulo \ref{Reconstruction}) se podrá generar el cubo espectral de imágenes.
+El cubo de imágenes espectrales en conjunto forma una imagen hiperespectral. 
+En otras palabras se tendrá una imágen de referencia y N imágenes a diferente espectro, siendo N el número de distintos longitudes de onda captadas.
+
+Las imágenes hiperespectrales tomadas mediante un dispositivo CTIS tienden a ser generadas con bastante ruido, ya que la reconstrucción es un proceso difícil. Tomando en cuenta las referencias de imágenes contenidas en una sola toma con propiedades superposicionadas la extracción de imagen por espectro se vuelve una tarea delicada. \cite{NoiseEstimation}\cite{NoiseEstimation2}\cite{extra1}
+
+Los filtros tienen una gran importancia en el proyecto ya que poseen la finalidad de eliminar ruido a las imágenes resultantes. 
+Los filtros en  2D tradicionales toman en cuenta pixel por pixel, y determinan una corrección a cada pixel con base en la cercanía en escala de canales de color con los pixeles vecinos.
+Tomando en cuenta que se trata de un cubo de datos, se deberá presentar de forma distinta a los tradicionales filtros para mejorar la calidad de la imagen hiperespectral.
+
+\section{Motivación}
+
+Analizar imágenes tomadas en diferentes espectros ha ayudado a la ciencia desde la identificacíon de componentes químicos a las anormalidades de éstos. De forma que puedan determinar qué objeto se captó y en qué estado se encuentra. 
+Gracias a estos acercamientos importantes puede aplicarse en diversas áreas, tales como en control de calidad, geología, minería, agricultura, industria, etc\cite{Applications}.
+El Maestro en Ciencias Jairo Salazar ha estado trabajando en la elaboración de una cámara hiperespectral de bajo costo\cite{JairoCamera}
+permitiendo de tal forma el alcance de esta tecnología a científicos que no tengan el recurso para comprar una cámara hiperespectral, ya que en el mercado el precio de una cámara hiperespectral básica es bastante elevado comenzando desde los 25 mil USD. 
+
+Lograr tener resultados positivos en este proyecto es un gran reto. Ya que el objetivo principal es brindar una mejora a la calidad en los resultados obtenidos por la nueva cámara.
+Se pretende que los avances de la presente tesis sean base de una primera mejora al procedimiento de abstracción de las imágenes hiperespectrales y como trabajo a futuro se pueda continuar sobre el mismo.
+Se pretende que con los avances de la presente tesis se fundamente una base inicial al mejoramiento de la calidad de las imágenes hiperespectrales.
+Cualquier mejora significará un gran avance, ya que sería la primera aportación de este tipo para dicho proyecto. Los precios de las cámaras hiperespectrales en el mercado están muy elevados por lo que es importante que el proyecto de la nueva cámara a bajo costo llegue a su cumplimiento logrando accesibilidad en el uso de este tipo de tecnologías. 
+
+\section{Descripción del problema}
+Los resultados obtenidos actualmente por la nueva cámara hiperespectral \cite{JairoCamera} con la estructura CTIS contienen ruido bastante considerable, por lo que se pretende con el presente proyecto mejorar dichos resultados.
+
+\section{Hipótesis}
+
+Aplicando el algorítmo de Malvar-He-Cutler a la imagen Hyperespectral HDR 2D superposicionada para después reconstruir las imágenes por espectro y a cada una de ellas aplicarle el filtro gaussian blur y shapender, mejorará la calidad visual de las imágenes espectrales.
+
+\section{Objetivos}
+\subsection{Objetivo General} 
+Mejorar la calidad del cubo hiperespectral construido con un algoritmo basado en la interpolación cromática espacial, obteniendo mejoras espacial y espectralmente, y eliminación de ruido.
+
+\subsection{Objetivos específicos}
+\begin{enumerate}
+\item Analizar los algoritmos de interpolación cromática y reconstrucción CTIS.
+\item Agregar o modificar el algoritmo con fin de obtener resultados deseados en lo espacial, espectral y en suavidez.
+\item Comprobar visualmente la eliminación del ruido.
+%\item Hacer pruebas espaciales y espectrales.
+\item Reemplazar el algoritmo utilizado para la generación del cubo por el nuevo algoritmo en caso de haber obtenido mejoras en los resultados. 
+\end{enumerate}
+
+\section{Contribuciones originales}
+Después de obtener imagen 2D de la nueva cámara\cite{JairoCamera} basada en CTIS\cite{PracCam}:
+\begin{itemize}
+\item Aplicar un patrón de Bayer RGGB a imagen 2D.
+\item Filtrar imagen con algorítmo de Malvar-He-Cutler.
+\end{itemize}
+Después de la interpolación cromática y reconstrucción: 
+\begin{itemize}
+\item Suavizar imagen con algoritmo PGA basada en transformadas Daubichies.
+\end{itemize}
+
+\section{Organización del documento}
+En el capítulo \ref{Capitulo1} se presenta la introducción del proyecto, donde se lleva al lector a un estado de comprensión del enfoque del trabajo.
+En el capítulo \ref{Capitulo2} se da al lector el fundamento teórico necesario para que el proyecto sea realizado.
+En el capítulo \ref{Capitulo3} se plantean las posibles soluciones que se concluirán para posterior determinar cuál resultado es mejor.
+En el capítulo \ref{Capitulo4} se pueden ver los resultados que se obtuvieron, mismos que serán comparados entre ellos mismos para llegar a la conclusión.
+En el capítulo \ref{Capitulo5} se da a conocer la conclusión del proyecto con base en los resultados obtenidos y el objetivo planteado en el capítulo \ref{Capitulo1}.

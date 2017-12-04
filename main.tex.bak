@@ -1,0 +1,526 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{Thesis} % The default font size and one-sided printing (no margin offsets)
+
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+
+
+
+
+
+
+%Theorem templates
+\newtheorem{defi}{Definition}
+\newtheorem{theo}{Theorem}
+\newtheorem{coro}{Corollary}
+\newtheorem{note}{Note}
+
+
+
+\newcommand*\bombcontradicts{\includegraphics{./ParaTesisDeMaestria/bomb.png} (contradiction)}
+
+
+
+
+
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+
+\includegraphics[width=0.15\textwidth]{Figures/Logo.eps}
+
+\textsc{\LARGE \univname}\\[1.5cm] % University name
+
+
+
+\textsc{\Large Engineering Thesis}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+\href{mail:jsalazar@gdl.cinvestav.mx}{\authornames} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+\href{mail:amendez@gdl.cinvestav.mx}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[25mm]
+ 
+\large \textit{A thesis submitted in fulfillment of the requirements\\ 
+for the degree of \degreename}\\[0.3cm] % University requirement text
+\textit{in the}\\[0.4cm]
+\groupname\\\deptname\\[12mm] % Research group name and department name
+CONACYT's scholarship ID: 369844\\[15mm]
+ 
+{\large August 2015}\\[4cm] % Date
+%\includegraphics{Logo} % University/department logo - uncomment to place it
+ 
+\vfill
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\Declaration{
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
+
+\begin{itemize} 
+\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
+\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+\end{itemize}
+ 
+Signed:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+\textit{Dedicated to all people who motivated me along my life to obtain the master in science degree.}
+
+\begin{flushright}
+Jairo Salazar Vázquez.
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+%----------------------------------------------------------------------------------------
+%	RESUMEN PAGE
+%----------------------------------------------------------------------------------------
+\clearpage % Start a new page
+
+\addtotoc{Resumen} % Add the "Abstract" page entry to the Contents
+
+\begin{center}
+    \setlength{\parskip}{0pt}
+    %{\normalsize \UNIVNAME \par} % University name in capitals
+    %\bigskip
+    {\huge{\textit{Resumen}} \par}
+    \bigskip
+    {\normalsize \facname \par} % Faculty name
+    {\normalsize Departamento de Ingeniería Eléctrica \par} % Department name
+    \bigskip
+    {\normalsize Maestría en ciencias \par} % Degree name
+    \bigskip
+    {\normalsize\bf Extracción automática de pixeles puros para analizar imágenes hiperespectrales. \par} % Thesis title
+    \medskip
+    {\normalsize por \authornames \par} % Author name
+    \bigskip
+\end{center}
+
+Debido a que las im\'agenes hiperespectrales tienen una alta resoluci\'on espectral, han permitido 
+desarrollar algoritmos para detectar objetos y generar mapas de distribución de materiales en 
+un \'area geogr\'afica para aplicaciones de agricultura, seguridad y defensa, industria, 
+etc., como Dimitris [Dimitris, 2002] coment\'o: ``\emph{explotando 
+el hecho de que diferentes materiales refractan, absorben y emiten energ\'ia electromagn\'etica, 
+de forma distinta en cada longitud de onda, definiendo patrones identificables debido a su 
+composici\'on molecular}". En esta tesis se explora la idea de extraer los 
+endmembers de una imagen hiperespectral de forma autom\'atica y sin requerir par\'ametro alguno. 
+Como resultado de la investigaci\'on, se propone el algoritmo FuzzyVD para estimar el número de 
+endmembers presentes en una imagen hiperespectral y tambi\'en se propone el algoritmo 
+SMV$\perp$ para extraer un n\'umero dado de endmembers de dicha imagen. Al utilizar FuzzyVD y 
+SMV$\perp$ en conjunto, es posible realizar el proceso de extracci\'on de endmembers sin necesidad 
+de par\'ametros o entrenamiento. El desempe\~no de los algoritmos propuestos ha sido comparado 
+con los algorimos similares encontrados en la literatura de identificaci\'on de endmembers 
+y los resultados permiten concluir que tanto FuzzyVD como SMV$\perp$ son robustos 
+y confiables.
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE ENGLISH
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+The high spectral resolution of the Hyperspectral Images (HI) allows to develop different 
+algorithms for target detection, material mapping, and material identification. This has applications in 
+agriculture, security, industry, and defense [Dimintris, 2002] ``\emph{by exploiting the fact that different materials reflect, 
+absorb, and emit electromagnetic energy, at specific wavelengths, in distinctive patterns related to 
+their molecular composition}". This thesis explores the idea of extracting the endmembers present in a 
+hyperspectral image using a totally automatically approach without parameter settings. As a result, 
+the FuzzyVD algorithm is proposed in order to estimate the number of endmembers present in a given 
+hyperspectral image and the SMV$\perp$ algorithm is proposed for endmembers extraction. 
+The combination of both algorithms enables the 
+endmember extraction process in a non-supervised way. The performance of SMV$\perp$ and FuzzyVD in 
+synthetic and real hyperspectral images have been compared against several of the state of the art 
+algorithms with similar features through the literature of endmember identification, and the 
+results allow to conclude that the proposal is robust and reliable.
+
+}
+
+
+
+
+
+
+
+
+
+
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+To my mother who supported me since the beginning of my studies.
+
+To my father that taught me to work.
+
+To Nancy who supported me and encouraged me since PADTS.
+
+To my advisor Dr. Andrés Méndez who motivated me, guided me, and supported me throughout the research.
+
+To Dr. Raúl Gonzales, Dr. Ernesto López, Dr. Mario Siller, and Dr. Féliz Ramos for the knowledge that 
+they gave me.
+
+To my classmates: Armando, Arturo, Rubén, Mario, Ivan, and Edith who supported me in the learning 
+process and they allowed me to enjoy the postgraduate studies.
+
+To Dr. Cuauhtemoc López who taught me how to select my thesis topic.
+
+To M.C. Cacama Solís Peñafiel who is the first person to told me about the CINVESTAV.
+
+To all people who influenced me to study postgrade.
+
+To CONACYT and especially to the Mexican citizens for the economic support.
+
+}
+
+
+
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+{
+
+  \textbf{ATGP} 	& \textbf{A}utomatic \textbf{T}arget \textbf{G}eneration \textbf{P}roccess \\  
+
+  \textbf{AVIRIS}	& \textbf{A}irborne \textbf{V}isible / \textbf{I}nfra\textbf{R}ed \textbf{I}maging \textbf{S}pectrometer \\  
+  
+  \textbf{AWGN}		& \textbf{A}dditive \textbf{W}hite \textbf{G}aussian \textbf{N}oise \\ 
+  
+  \textbf{CMER}		& \textbf{C}lustering \textbf{M}ethod based upon \textbf{E}quivalence \textbf{R}elations \\
+  
+  \textbf{EEA} 		& \textbf{E}ndmember \textbf{E}xtraction \textbf{A}lgorithms \\
+
+  \textbf{HI} 		& \textbf{H}yperspectral \textbf{I}mage \\
+  
+  \textbf{HFC}		& \textbf{H}arsanyi \textbf{F}errand \textbf{C}hang \\
+  
+  \textbf{HSI}		& \textbf{H}yperspectral \textbf{I}maging \textbf{S}ensors \\
+  
+  \textbf{LMM} 		& \textbf{L}inear \textbf{M}ixing \textbf{M}odels \\
+  
+  \textbf{MNF}		& \textbf{M}aximum \textbf{N}oise \textbf{F}raction \\ 
+  
+  \textbf{NAPC} 	& \textbf{N}oise \textbf{A}djusted \textbf{P}rincipal \textbf{C}omponents \\ 
+
+  \textbf{NWHFC}	& \textbf{N}oise \textbf{W}hitened \textbf{H}arsanyi \textbf{F}errand \textbf{C}hang \\     
+  
+  \textbf{OBA} 		& \textbf{O}rthogonal \textbf{B}ases \textbf{A}proach \\
+  
+  \textbf{PPI} 		& \textbf{P}ixel \textbf{P}urity \textbf{I}ndex \\
+  
+  \textbf{SGA}		& \textbf{S}implex \textbf{G}rowing \textbf{A}lgorithm \\
+  
+  \textbf{SMV$\perp$}	& \textbf{S}implex of \textbf{M}aximal \textbf{V}olume using \textbf{P}erpendicular altitude \\
+  
+  \textbf{TEP} 		& \textbf{T}hreshold \textbf{E}nergy \textbf{P}ercentage \\
+  
+  \textbf{USGS} 	& \textbf{U}nited \textbf{S}tates \textbf{G}eological \textbf{S}urvey \\
+    
+  \textbf{VD} 		& \textbf{V}irtual \textbf{D}imensionality \\ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%\clearpage % Start a new page
+
+%\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+
+%\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+%{
+%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+% Constant Name & Symbol & = & Constant Value (with units) \\
+%}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+
+\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+
+\listofnomenclature{lll} % Include a list of Symbols (a three column table)
+{
+
+  $\oplus$				& := XOR operation. \\
+  
+  $\mathbb{N}$				& := $\lbrace 1, 2, 3, ... \rbrace$. \\
+  
+  $\mathbb{R}$				& := The set of all real numbers.  \\
+  
+  $\mathbb{K}$				& := A field. \\
+  
+  $[a,b], (a,b], [a,b), (a,b)$		& := Closed, left-open, right-open, open interval or real numbers \\
+					& \hspace{0.5cm} between a and b, respectively. \\
+					
+  $\mid x \mid$				& := Absolute value of $x$. \\
+  
+  $\vec{u}$				& := $u$ is a vector. \\
+  
+  $ \langle \vec{u}, \vec{v} \rangle$	& := Dot product of the vectors $\vec{u}$ and $\vec{v}$. \\
+  
+  $ \parallel \vec{u} \parallel$	& := $\sqrt{\langle \vec{u}, \vec{u} \rangle}$. \\
+  
+  !					& := Factorial.  \\
+  
+  $A \setminus B$			& := Set $A$ minus set $B$. \\
+  
+  $\lbrace \emptyset \rbrace$		& := Empty set. \\
+  
+  $\in$					& := Is an element of. \\
+  
+  $\not \in$				& := Is not an element of. \\
+  
+  $\cup, \cap$  			& := Set union and set intersection respectively. \\
+  
+  $\subset, \subseteq$			& := Proper subset of and subset of respectively. \\  
+  
+  $\vec{u}^\perp$ 			& := Orthogonal complement of $\vec{u}$. \\
+  
+  $\wp$					& := Power set. \\
+  
+  $\#A$					& := Cardinality of the set A. \\
+  
+  $\xi$					& := The collection of all subsets $E \in \wp$, such that $\#E=k$, for \\
+					& \hspace{6mm}a given $k \in \mathbb{N}$. \\
+  
+  $\circ$				& := Composition of relations or functions. \\ 
+  
+  ${^\alpha}A, ^{+\alpha}A$		& := Alpha cut and strong Alpha cut respectively. \\
+  
+  $\sigma^2$				& := Sample standard deviation. \\
+  
+  
+  
+  
+
+}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+%\setstretch{1.3} % Return the line spacing back to 1.3
+%\pagestyle{empty} % Page style needs to be empty for this page
+%\dedicatory{Dedicated to all people who motivated me along my life to obtain the master in science degree.} % Dedication text
+%\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}%Introduction
+%\input{Chapters/Chapter2}%Theoretical framework
+%\input{Chapters/Chapter3}%State of the art
+%\input{Chapters/Chapter4}%Porpose (FuzzyVD and SMV_Perp)
+%\input{Chapters/Chapter5}%Discusion( Experiments and results)
+%\input{Chapters/Chapter6}%Conclusions
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER: Introduction
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+%\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\label{Bibliography}
+
+\input{references.bib}%References
+
+
+
+
+\end{document}  
+

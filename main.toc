@@ -1,0 +1,50 @@
+\contentsline {chapter}{Resumen}{ii}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Dedicatoria}{iv}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{\IeC {\'I}ndice}{v}{dummy.3}
+\contentsline {chapter}{\IeC {\'I}ndice de Figuras}{vii}{dummy.5}
+\contentsline {chapter}{\IeC {\'I}ndice de Tablas}{viii}{dummy.7}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.9}
+\contentsline {section}{\numberline {1.1}Conceptos introductorios}{1}{section.10}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n}{2}{section.11}
+\contentsline {section}{\numberline {1.3}Descripci\IeC {\'o}n del problema}{3}{section.12}
+\contentsline {section}{\numberline {1.4}Hip\IeC {\'o}tesis}{3}{section.13}
+\contentsline {section}{\numberline {1.5}Objetivos}{3}{section.14}
+\contentsline {subsection}{\numberline {1.5.1}Objetivo General}{3}{subsection.15}
+\contentsline {subsection}{\numberline {1.5.2}Objetivos espec\IeC {\'\i }ficos}{3}{subsection.16}
+\contentsline {section}{\numberline {1.6}Contribuciones originales}{4}{section.21}
+\contentsline {section}{\numberline {1.7}Organizaci\IeC {\'o}n del documento}{4}{section.22}
+\contentsline {chapter}{\numberline {2}Marco te\IeC {\'o}rico}{5}{chapter.23}
+\contentsline {section}{\numberline {2.1}Im\IeC {\'a}genes espectrales}{5}{section.24}
+\contentsline {subsection}{\numberline {2.1.1}Espectro electromagn\IeC {\'e}tico}{5}{subsection.25}
+\contentsline {subsection}{\numberline {2.1.2}Firmas espectrales}{6}{subsection.30}
+\contentsline {subsection}{\numberline {2.1.3}Imagen espectral}{7}{subsection.34}
+\contentsline {subsection}{\numberline {2.1.4}Imagen Multiespectral}{8}{subsection.36}
+\contentsline {subsection}{\numberline {2.1.5}Imagen Hiperespectral}{9}{subsection.38}
+\contentsline {section}{\numberline {2.2}CTIS}{10}{section.40}
+\contentsline {subsection}{\numberline {2.2.1}Calibraci\IeC {\'o}n espacial}{11}{subsection.42}
+\contentsline {subsection}{\numberline {2.2.2}Calibraci\IeC {\'o}n espectral}{12}{subsection.43}
+\contentsline {subsection}{\numberline {2.2.3}Medici\IeC {\'o}n de slit espectral e interpolaci\IeC {\'o}n crom\IeC {\'a}tica}{12}{subsection.44}
+\contentsline {subsection}{\numberline {2.2.4}Calibraci\IeC {\'o}n hiperespectral}{13}{subsection.47}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Teor\IeC {\'\i }a de reconstrucci\IeC {\'o}n CTIS}{13}{subsubsection.48}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Calibraci\IeC {\'o}n espacial hiperespectral}{13}{subsubsection.51}
+\contentsline {subsubsection}{\numberline {2.2.4.3}Medici\IeC {\'o}n de im\IeC {\'a}genes hiperespectrales}{14}{subsubsection.52}
+\contentsline {subsubsection}{\numberline {2.2.4.4}Interpolaci\IeC {\'o}n crom\IeC {\'a}tica espacial y reconstrucci\IeC {\'o}n}{14}{subsubsection.53}
+\contentsline {section}{\numberline {2.3}Mosaico de Bayer\cite {Bayer}}{15}{section.55}
+\contentsline {section}{\numberline {2.4}M\IeC {\'e}todo de Malvar, He y Cutler}{15}{section.57}
+\contentsline {section}{\numberline {2.5}Gaussian blur\cite {Blur}}{16}{section.64}
+\contentsline {section}{\numberline {2.6}Sharpender\cite {Sharp}}{16}{section.66}
+\contentsline {section}{\numberline {2.7}GPA}{17}{section.67}
+\contentsline {subsection}{\numberline {2.7.1}Transformada de Fourier}{17}{subsection.68}
+\contentsline {subsubsection}{\numberline {2.7.1.1}Series de Fourier \cite {FourierBook}}{17}{subsubsection.69}
+\contentsline {subsection}{\numberline {2.7.2}Transformadas de Wavalet}{18}{subsection.77}
+\contentsline {subsubsection}{\numberline {2.7.2.1}Daubechies}{19}{subsubsection.82}
+\contentsline {chapter}{\numberline {3}Propuesta}{21}{chapter.86}
+\contentsline {section}{\numberline {3.1}Proceso}{21}{section.87}
+\contentsline {chapter}{\numberline {4}Resultados}{23}{chapter.89}
+\contentsline {section}{\numberline {4.1}Im\IeC {\'a}genes obtenidas}{23}{section.90}
+\contentsline {chapter}{\numberline {5}Conclusiones}{29}{chapter.117}
+\vspace {2em}
+\vspace {2em}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{31}{dummy.121}

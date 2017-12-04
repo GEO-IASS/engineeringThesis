@@ -1,0 +1,4 @@
+Figure 2: Diffractions interpreted as parallel projections Pj
+of data cube voxels vi
+to an image plane pixel pk
+.

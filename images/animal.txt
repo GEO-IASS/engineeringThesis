@@ -1,0 +1,7 @@
+Figure 1. Correlation analysis between the photon flux computed on the mouse surface by
+the FEM-based solver using inhomogeneous optical properties defined on the mouse atlas and
+the analytic model assuming homogeneous optical properties throughout the animal volume.
+(a), (b): plots of the correlation coefficient between the FEM and analytic forward field sensitivities
+computed for each surface element. (c)–(f): plots of forward fields for a point source computed
+using analytic (c), (e) and FEM (d), (f) for worst case (c), (d) and best case (e), (f) correlation of
+surface fluence.
