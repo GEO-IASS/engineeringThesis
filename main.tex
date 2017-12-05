@@ -38,9 +38,7 @@
 \usepackage{floatrow}
 \usepackage{subfig}
 \usepackage{mwe}
-\usepackage[style=long,nonumberlist,toc,xindy,acronym,nomain]{glossaries}
-\makeglossaries
-\loadglsentries{Chapters/glosario}
+
 
 
 
@@ -340,22 +338,36 @@ Por siempre estar exhortando a dar lo mejor de mi, y reflejar en sus palabras la
 \input{Chapters/Chapter4}%Algoritmos
 \input{Chapters/Chapter5}%Resultados
 
-
-
 %----------------------------------------------------------------------------------------
 %   GLOSSARY
 %----------------------------------------------------------------------------------------
-\clearpage % Start a new page
-\printglossaries
-
 %\input{Chapters/glosario}%Glosario
+\input{Appendices/AppendixA}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
 %\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-\lhead{emph{Bibliografía}} % Change the page header to say "Bibliography"
+\lhead{\emph{Bibliografía}} % Change the page header to say "Bibliography"
 
 \label{Bibliografia}
 

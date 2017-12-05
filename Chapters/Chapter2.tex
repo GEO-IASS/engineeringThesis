@@ -217,7 +217,7 @@ Para que esto suceda se necesita determinar la posición de las cinco proyeccion
 \subsubsection{Medición de imágenes hiperespectrales}
 Al tener una imagen hiperespectral CTIS se necesita hacer una medición de las señales a distintas longitudes de onda para de esta forma identificar las caractarísticas superposicionadas de las diversas longitudes de ondas del espectro electromagnético.
 
-Teniendo la matriz $H$ definida se puede proseguir para la solución de una imagen CTIS. Considerando que la utilización de la ecuación \ref{FormulaCH2} da una gran cantidad de ceros se tienen datos y procedimientos innecesarios. Para solucionar esto se propone separar por canal el arreglo de \textit{imagen Bayer} tratando a los dos canales de verde (\textit{green} G) del \textit{arreglo Bayer RGGB}. Se realiza lo mismo con la matriz $H$ para extraer $H$ matrices para cada uno de los cuatro canales \textit{RGGB} solo para las longitudes de onda donde la correspondencia no sea cero.
+Teniendo la matriz $H$ definida se puede proseguir para la solución de una imagen CTIS. Considerando que la utilización de la ecuación \ref{FormulaCH2} da una gran cantidad de ceros se tienen datos y procedimientos innecesarios. Para solucionar esto se propone separar por canal el arreglo de \textit{Mosaico de Bayer} tratando a los dos canales de verde (\textit{green} G) del \textit{arreglo Bayer RGGB}. Se realiza lo mismo con la matriz $H$ para extraer $H$ matrices para cada uno de los cuatro canales \textit{RGGB} solo para las longitudes de onda donde la correspondencia no sea cero.
 
 \subsubsection{Interpolación cromática espacial y reconstrucción}
 \label{Reconstruction}
