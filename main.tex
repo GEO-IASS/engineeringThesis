@@ -38,7 +38,9 @@
 \usepackage{floatrow}
 \usepackage{subfig}
 \usepackage{mwe}
-
+\usepackage[style=long,nonumberlist,toc,xindy,acronym,nomain]{glossaries}
+\makeglossaries
+\loadglsentries{Chapters/glosario}
 
 
 
@@ -306,12 +308,7 @@ Por siempre estar exhortando a dar lo mejor de mi, y reflejar en sus palabras la
 \lhead{\emph{Lista de Tablas}} % Set the left side page header to "List of Tables"
 \listoftables % Write out the List of Tables
 
-%----------------------------------------------------------------------------------------
-%   GLOSSARY
-%----------------------------------------------------------------------------------------
-\clearpage % Start a new page
-%\input{Chapters/glosario}%Glosario
-\input{Appendices/AppendixA}
+
 %----------------------------------------------------------------------------------------
 %	DEDICATION
 %----------------------------------------------------------------------------------------
@@ -344,30 +341,21 @@ Por siempre estar exhortando a dar lo mejor de mi, y reflejar en sus palabras la
 \input{Chapters/Chapter5}%Resultados
 
 
+
 %----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
+%   GLOSSARY
 %----------------------------------------------------------------------------------------
+\clearpage % Start a new page
+\printglossaries
 
-\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
-
-\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
-
-% Include the appendices of the thesis as separate files from the Appendices folder
-% Uncomment the lines as you write the Appendices
-
+%\input{Chapters/glosario}%Glosario
 %\input{Appendices/AppendixA}
-%\input{Appendices/AppendixB}
-%\input{Appendices/AppendixC}
-
-\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
-
-\backmatter
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-\lhead{\emph{Bibliografía}} % Change the page header to say "Bibliography"
+\lhead{emph{Bibliografía}} % Change the page header to say "Bibliography"
 
 \label{Bibliografia}
 
